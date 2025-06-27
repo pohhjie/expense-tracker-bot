@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# Your .env file for environment variables
+env/
+venv/
+*.env
+
+# If you use Jupyter Notebooks for testing/prototyping
+.ipynb_checkpoints/ 
+
+# Operating System Files
+.DS_Store # macOS
+Thumbs.db # Windows
+ehthumbs.db # Windows
+Desktop.ini # Windows
+
+# IDEs
+.idea/ # PyCharm
+.vscode/ # VS Code
+*.sublime-project
+*.sublime-workspace
+
+# Database
+expenses.db # Your SQLite database file
+*.db-journal # SQLite journal files

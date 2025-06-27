@@ -1,0 +1,25 @@
+# Essential for AI categorisation, this is used for interacting with
+# HuggingFace models.
+transformers
+
+# Core library for interacting with the Telegram API. This is needed to
+# interface with our Telegram Bot
+python-telegram-bot==20.3 # v_20.3 is a stable release
+
+# Crucial for securely managing sensitive information such as Telegram Bot
+# token and HuggingFace's API key.
+python-dotenv
+
+# Optical Character Recognition (OCR) library for extracting text from images.
+# This library will be useful if we were to integrate image recognition.
+pytesseract
+
+# This is an image processing library, often as a dependency for `pytesseract`.
+pillow
+
+# This library might be necessary if we would to incorporate our own custom
+# classification models
+scikit-learn
+
+# Library for plotting and data visualisation. 
+matplotlib
