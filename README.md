@@ -15,11 +15,27 @@ This is a personal proof-of-concept project where I'm exploring how to build a s
 
 ## 🚀 Technologies Used
 1. Python 3.10.x: The core programming language for the bot logic.
-2. `python-dotenv`: Keeping those sensitive API keys out of the code.
-3. `sqlite3` (Built-in Python): For a simple, file-based database.
+2. `python-telegram-bot` library: For interacting with the Telegram Bot API.
+3. `python-dotenv`: For securely managing environment variables (like the Telegram Bot Token, API key like HuggingFace, etc.).
+4. `sqlite3` (Built-in Python): For a simple, file-based database.
 
-## ⚙️ Installation & Setup
-Detailed setup instructions will be added once the MVP is complete.
+## ⚙️ Installation & Setup (Under Construction)
+**NOTE**: Detailed setup instructions will be added once the MVP is complete.
+
+Follow these steps to get your Expense Tracker Bot up and running locally.
+
+#### Prerequisites
+Before you begin, ensure you have the following installed:
+
+* Python 3.10+
+* pip (Python package installer)
+
+#### 1. Clone the Repository
+```
+git clone https://github.com/pohhjie/expense-tracker-bot.git
+cd expense-tracker-bot
+```
+
 
 ## 📄 License
 This project is licensed under the MIT License - see the `LICENSE` file for full details.
