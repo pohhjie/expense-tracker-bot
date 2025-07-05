@@ -16,17 +16,17 @@ venv/
 .ipynb_checkpoints/ 
 
 # Operating System Files
-.DS_Store # macOS
-Thumbs.db # Windows
-ehthumbs.db # Windows
-Desktop.ini # Windows
+.DS_Store 
+Thumbs.db 
+ehthumbs.db 
+Desktop.ini
 
 # IDEs
-.idea/ # PyCharm
-.vscode/ # VS Code
+.idea/
+.vscode/ 
 *.sublime-project
 *.sublime-workspace
 
 # Database
-expenses.db # Your SQLite database file
-*.db-journal # SQLite journal files
+*.db 
+*.db-journal 
